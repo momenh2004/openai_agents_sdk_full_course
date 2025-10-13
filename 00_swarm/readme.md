@@ -1,5 +1,6 @@
 # 🧠 **What is Swarm (_جھنڈ, مجمع_)?**
-
+<br>
+<br>
 ![OpenAI Swarm](images/swarm.png)
 
 
@@ -15,7 +16,8 @@ Think of it like a **team of specialists**:
 ✅ This system made AI teamwork **smooth, scalable, and easy to test**.
 
 ---
-
+<br>
+<br>
 
 
 ## 🔁 **From Swarm → to Agents SDK**
@@ -32,7 +34,8 @@ With the **Agents SDK**, developers can:
 💡 **In short:** The **Agents SDK** is the **next generation** of **Swarm**, designed for **real-world use**.
 
 ---
-
+<br>
+<br>
 
 
 
@@ -43,7 +46,8 @@ They act as **blueprints** for organizing agent collaboration.
 
 ---
 
-
+<br>
+<br>
 
 
 ### 🧱 **Main Anthropic Design Patterns**
@@ -51,18 +55,21 @@ They act as **blueprints** for organizing agent collaboration.
 1. **🪜 Prompt Chaining**  
    - Break a big task into **small steps**.  
    - Each step’s **output becomes the next step’s input**.  
-
+<br>
 
 2. **🧭 Routing**  
    - Send a task to the **right agent** based on what needs to be done.  
 
+<br>
 
 3. **⚡ Parallelization**  
    - Let **multiple agents work at the same time** to finish faster.  
 
+<br>
 
 4. **🎯 Orchestrator–Workers**  
    - One **main agent (orchestrator)** gives tasks to **other agents (workers)** and manages them.  
+<br>
 
 
 5. **🔍 Evaluator–Optimizer**  
@@ -71,6 +78,8 @@ They act as **blueprints** for organizing agent collaboration.
 ---
 
 
+<br>
+<br>
 
 
 ## 🧾 **In Short**
