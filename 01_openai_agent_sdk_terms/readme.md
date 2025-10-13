@@ -18,9 +18,9 @@ Let’s define these 3 important terms: **OpenAI**, **Agents**, and **SDK** 👇
 
 ## 🤖 What is an Agent?
 
-An **Agent** is an AI program that can **think**, **decide**, and **act** to complete a specific task.  
-Each agent usually has a **specific goal or role**.  
-Agents can also **collaborate**, passing tasks between each other to solve complex problems — this is known as **multi-agent collaboration**.  
+- An **Agent** is an AI program that can **think**, **decide**, and **act** to complete a specific task.  
+- Each agent usually has a **specific goal or role**.  
+- Agents can also **collaborate**, passing tasks between each other to solve complex problems — this is known as **multi-agent collaboration**.  
 
 ---
 <br>
@@ -50,10 +50,10 @@ A **Chatbot only talks**, while an **Agent can think, act, and perform tasks** o
 
 ## 🧰 What is SDK?
 
-**SDK** stands for **Software Development Kit**.  
-It’s a collection of **tools, libraries, and documentation** that helps developers build software or apps easily.  
+- **SDK** stands for **Software Development Kit**.  
+- It’s a collection of **tools, libraries, and documentation** that helps developers build software or apps easily.  
 
-The **OpenAI Agents SDK** enables developers to create and manage **AI agents** efficiently — without needing to build everything from scratch.  
+- The **OpenAI Agents SDK** enables developers to create and manage **AI agents** efficiently — without needing to build everything from scratch.  
 <br>
 
 🧩 **In short:**  
