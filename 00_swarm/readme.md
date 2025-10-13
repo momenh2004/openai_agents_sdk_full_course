@@ -1,6 +1,6 @@
 # 🧠 **What is Swarm (_جھنڈ, مجمع_)?**
 <br>
-<br>
+
 ![OpenAI Swarm](images/swarm.png)
 
 
