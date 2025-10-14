@@ -5,16 +5,14 @@
 
 **Simple Definition:**
 `uv` is a **modern, fast tool** that helps Python developers manage:
-
 * 🧩 **Projects** (folders and files)
 * ⚙️ **Dependencies** (like libraries)
 * 🌐 **Virtual environments** (Python environments)
 * 🚀 **Packaging and running apps**
 
-<br>
+
 
 ### 💡 Why we use `uv`?
-
 Because it combines what `pip`, `venv`, and `poetry` do — **all in one tool**.
 It is **super fast**, easy to use, and handles Python projects from setup to publishing.
 
@@ -39,15 +37,13 @@ It is **super fast**, easy to use, and handles Python projects from setup to pub
 ## ⚙️ **C. UV Installation Guide**
 
 Before using `uv`, you must have **Python** installed on your system.
-
 Below are **step-by-step instructions** for installing Python on **Windows**, **macOS**, and **Linux**, followed by **UV installation**.
 
 
 ## 💻 **Python Installation (Step-by-Step for All OS)**
 
-<br>
 
-### 🪟 **Windows**
+### 🪟 **Windows System**
 
 #### ✅ Step 1: Download Python
 
@@ -73,15 +69,15 @@ python --version
 ```
 
 
-<br>
 
 ### 🍎 **macOS**
 
 ### ✅ Step 1: Use Homebrew (Recommended)
 
 - First, install Homebrew (if not already installed):
-
+```bash
 - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 
 Then install Python:
@@ -98,6 +94,7 @@ python3 --version
 ### ✅ Expected Output Example:
 
 Python 3.xx.x (latest version)
+
 
 
 ## 🐧 **Linux (Ubuntu / Debian-based)**
@@ -142,7 +139,6 @@ pip 24.00 (latest version)
   uv --version
   ```
   
-
 
 
 ### 🍎 **macOS**
@@ -206,12 +202,14 @@ cd my-simple-app
 **It creates:**
 
 
+```
 my-simple-app/
 ├── .gitignore
 ├── .python-version
 ├── main.py
 ├── pyproject.toml
 └── README.md
+```
 
 
 🧠 Explanation:
