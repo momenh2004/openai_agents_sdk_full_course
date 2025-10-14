@@ -68,7 +68,9 @@ Click **"Download Python 3.x.x"** (latest version).
 
 Open **Command Prompt** and type:
 
-**python --version**
+```bash
+python --version
+```
 
 
 <br>
@@ -88,7 +90,9 @@ Then install Python:
 ```
 
 ### ✅ Step 2: Verify Installation
-**python3 --version**
+```bash
+python3 --version
+```
 
 
 ### ✅ Expected Output Example:
@@ -98,14 +102,20 @@ Python 3.xx.x (latest version)
 
 ## 🐧 **Linux (Ubuntu / Debian-based)**
 ### ✅ Step 1: Update System
-**sudo apt update**
+```bash
+sudo apt update
+```
 
 ### ✅ Step 2: Install Python
+```bash
 sudo apt install python3 python3-pip -y
+```
 
 ### ✅ Step 3: Verify Installation
+```bash
 python3 --version
 pip3 --version
+```
 
 
 ### ✅ Expected Output Example:
@@ -114,7 +124,7 @@ Python 3.00.0 (latest version)
 pip 24.00 (latest version)
 
 <br>
-<br>
+
 
 ## UV Package Manager Installation (All OS)
 
@@ -123,12 +133,14 @@ pip 24.00 (latest version)
 
 * ✅ **Step 1:** Open PowerShell as Admin
 * ✅ **Step 2:** Run Installation Script
-  powershell:disable-run
+  ```bash
   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
   
 * ✅ **Step 3:** Verify
-  bash
+  ```bash
   uv --version
+  ```
   
 
 
@@ -136,16 +148,19 @@ pip 24.00 (latest version)
 ### 🍎 **macOS**
 
 * ✅ **Option 1:** Install via Homebrew
-  bash
+  ```bash
   brew install uv
+  ```
   
 * ✅ **Option 2:** Install via Script
-  bash
+  ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
   
 * ✅ **Step 3:** Verify
-  bash
+  ```bash
   uv --version
+  ```
   
 
 
@@ -153,23 +168,26 @@ pip 24.00 (latest version)
 ### 🐧 **Linux**
 
 * ✅ **Step 1:** Install via Curl
-  bash
+  ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
   
 * ✅ **Optional:** If Needed, Add to PATH
-  bash
+  ```bash
   export PATH="$HOME/.local/bin:$PATH"
+  ```
   
 * ✅ **Step 2:** Verify
-  bash
+  ```bash
   uv --version
+  ```
   
 <br>
-<br>
 
 
 
-## **E. Steps to Create a Simple Application**
+
+## **D. Steps to Create a Simple Application**
 
 Let’s create a simple app called `my-simple-app`.
 
@@ -179,9 +197,10 @@ Let’s create a simple app called `my-simple-app`.
 
 Run:
 
-bash
+```bash
 uv init my-simple-app
 cd my-simple-app
+```
 
 
 **It creates:**
@@ -208,7 +227,9 @@ my-simple-app/
 ### ⚙️ Step 2 — Create the Environment
 
 Run:
+```bash
 uv sync
+```
 
 
 This command:
@@ -225,7 +246,9 @@ Now your project is fully ready to run in isolation.
 ### 🧑‍💻 Step 3 — Open in VS Code
 
 Run:
+```bash
 code .
+```
 
 
 Then select:
@@ -239,12 +262,13 @@ Now VS Code knows which Python version to use.
 
 Open `main.py` and add:
 
-
+```bash
 def main():
     print("Hello from my-simple-app! — IB CODING SCHOOL")
 
 if __name__ == "__main__":
     main()
+```
 
 
 
@@ -253,10 +277,11 @@ if __name__ == "__main__":
 
 Run directly using `uv`:
 
-
+```bash
 uv run python main.py
 or
 uv run main.py
+```
 
 
 **Output:**
@@ -264,17 +289,18 @@ uv run main.py
 Hello from my-simple-app! — IB CODING SCHOOL
 
 <br>
-<br>
 
 
 
-## 🅷️ **F. Adding Packages**
+
+## 🅷️ **E. Adding Packages**
 
 Want to use an external library (like `openai-agents`)?
 Just run:
 
-
-**uv add requests**
+```bash
+uv add requests
+```
 
 
 Now it’s automatically added to your `pyproject.toml` and locked.
@@ -283,18 +309,21 @@ Now it’s automatically added to your `pyproject.toml` and locked.
 
 
 
-## 🅹️ **G. Quick Command Reference**
+## 🅹️ **F. Quick Command Reference**
 
-| Task                 | Command                                                   |
-| -- |  |
-| Create new app       | `uv init my-simple-app`                                   |
-| Create environment   | `uv sync`                                                 |
-| Add dependency       | `uv add <package>`                                        |
-| Run file             | `uv run python main.py`                                   |
+
+
+| Task               | Command                      |
+| ------------------ | ----------------------------- |
+| 🆕 Create new app  | `uv init my-simple-app`       |
+| 🌱 Create environment | `uv sync`                  |
+| ➕ Add dependency   | `uv add <package>`            |
+| ▶️ Run file         | `uv run python main.py`       |
+
 
 
 <br>
-<br>
+
 
 ⭐ **Learn this complete course with video tutorials:**  
 📺 [YouTube Channel — Illahi Bux](https://www.youtube.com/@illahibuxJ)
