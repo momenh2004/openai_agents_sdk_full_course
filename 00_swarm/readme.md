@@ -17,7 +17,7 @@ Think of it like a **team of specialists**:
 
 ---
 <br>
-<br>
+
 
 
 ## 🔁 **From Swarm → to Agents SDK**
@@ -35,7 +35,7 @@ With the **Agents SDK**, developers can:
 
 ---
 <br>
-<br>
+
 
 
 
@@ -46,7 +46,7 @@ They act as **blueprints** for organizing agent collaboration.
 
 ---
 
-<br>
+
 <br>
 
 
@@ -79,7 +79,7 @@ They act as **blueprints** for organizing agent collaboration.
 
 
 <br>
-<br>
+
 
 
 ## 🧾 **In Short**
