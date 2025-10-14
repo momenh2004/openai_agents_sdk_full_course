@@ -14,10 +14,10 @@ Follow the steps below to generate your own API key:
 ---
 
 #### ⚙️ 2. Navigate to API Keys
-- After logging in, click your **profile icon** (⚙️ Settings).  
+- After logging in, click **⚙️ Settings** near your  **profile icon** .  
 - Select **"API keys"**  
 - Or directly visit 👉 [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-
+![](images/api_keys.png)
 ---
 
 #### 🧩 3. Create a New API Key
