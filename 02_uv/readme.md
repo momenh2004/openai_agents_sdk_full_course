@@ -297,15 +297,15 @@ Want to use an external library (like `openai-agents`)?
 Just run:
 
 ```bash
-uv add requests
+uv add openai-agents
 ```
 
 
-Now it’s automatically added to your `pyproject.toml` and locked.
+Now it’s automatically added to your `pyproject.toml`.
 
 
 
-
+<br>
 
 ## 🅹️ **F. Quick Command Reference**
 
