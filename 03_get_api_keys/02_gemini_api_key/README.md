@@ -17,10 +17,9 @@ Follow the steps below to create and configure your own **Gemini API key**.
 ### ⚙️ 2. Navigate to API Keys
 - After signing in, click your **profile icon (top-right corner)**.  
 - Select **“View API keys”** from the dropdown menu.  
-- Or go directly to 👉 [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+- Or go directly to 👉 [https://aistudio.google.com/app/apikey](https://aistudio.google.com/api-keys)
 
-> 📸 *Example Page:*  
-> ![](images/gemini_api_page.png)
+
 
 ---
 
