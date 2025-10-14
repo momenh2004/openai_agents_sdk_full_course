@@ -33,24 +33,12 @@ It is **super fast**, easy to use, and handles Python projects from setup to pub
 
 <br>
 
-## 🅲️ **C. Types of Applications in `uv`**
-
-There are two main project types you can create using `uv`:
-
-1. **Simple Application** → for small projects or experiments.
-2. **Packaged Application** → for professional projects you’ll share or publish.
-
-
-<br>
-<br>
 
 
 
+## ⚙️ **C. UV Installation Guide**
 
-## ⚙️ **D. UV Installation Guide**
-
-Before using `uv`, you must have **Python** installed on your system.  
-<br>
+Before using `uv`, you must have **Python** installed on your system.
 
 Below are **step-by-step instructions** for installing Python on **Windows**, **macOS**, and **Linux**, followed by **UV installation**.
 
@@ -74,15 +62,15 @@ Click **"Download Python 3.x.x"** (latest version).
 1. Double-click the downloaded `.exe` file.  
 2. **Important:** Check the box ✅ **“Add Python to PATH”**  
 3. Click **“Install Now”**
-<br>
+
 
 #### ✅ Step 3: Verify Installation
 
 Open **Command Prompt** and type:
 
-python --version
+**python --version**
 
-<br>
+
 <br>
 
 ### 🍎 **macOS**
@@ -95,21 +83,21 @@ python --version
 
 
 Then install Python:
-
+```bash
 - brew install python
 
 ### ✅ Step 2: Verify Installation
-python3 --version
+**python3 --version**
 
 
 ### ✅ Expected Output Example:
 
-Python 3.00.0 (latest version)
+Python 3.xx.x (latest version)
 
 
 ## 🐧 **Linux (Ubuntu / Debian-based)**
 ### ✅ Step 1: Update System
-sudo apt update
+**sudo apt update**
 
 ### ✅ Step 2: Install Python
 sudo apt install python3 python3-pip -y
