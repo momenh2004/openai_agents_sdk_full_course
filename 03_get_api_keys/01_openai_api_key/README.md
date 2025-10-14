@@ -17,6 +17,7 @@ Follow the steps below to generate your own API key:
 - After logging in, click **⚙️ Settings** near your  **profile icon** .  
 - Select **"API keys"**  
 - Or directly visit 👉 [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+
 ![](images/api_keys.png)
 ---
 
