@@ -291,7 +291,7 @@ Hello from my-simple-app! — IB CODING SCHOOL
 
 
 
-## 🅷️ **E. Adding Packages**
+## **E. Adding Packages**
 
 Want to use an external library (like `openai-agents`)?
 Just run:
@@ -307,7 +307,7 @@ Now it’s automatically added to your `pyproject.toml`.
 
 <br>
 
-## 🅹️ **F. Quick Command Reference**
+## **F. Quick Command Reference**
 
 
 
