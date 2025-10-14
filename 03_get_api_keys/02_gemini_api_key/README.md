@@ -17,7 +17,7 @@ Follow the steps below to create and configure your own **Gemini API key**.
 ### ⚙️ 2. Navigate to API Keys
 - After signing in, click your **profile icon (top-right corner)**.  
 - Select **“View API keys”** from the dropdown menu.  
-- Or go directly to 👉 [https://aistudio.google.com/app/apikey](https://aistudio.google.com/api-keys)
+- Or go directly to 👉 [https://aistudio.google.com/api-keys](https://aistudio.google.com/api-keys)
 
 
 
@@ -26,22 +26,10 @@ Follow the steps below to create and configure your own **Gemini API key**.
 ### 🧩 3. Create a New API Key
 - Click the **➕ "Create API Key"** button.  
 - Choose the project (or use the default one if not created yet).  
-- Once generated, **copy your API key** and **store it securely** — you **won’t be able to view it again!**
-
-> 📸 *Example Page:*  
-> ![](images/gemini_create_key.png)
+- Once generated, **copy your API key** and **store it securely** 
 
 ---
 
 ### 🧰 4. Use Your API Key
-You can now use your Gemini API key in your Python or Node.js applications.
+You can now use your Gemini API key (Paid and Free Versions) in your OpenAI Agents SDK projects
 
-#### 🐍 Example (Python)
-```python
-import google.generativeai as genai
-
-genai.configure(api_key="YOUR_API_KEY_HERE")
-
-model = genai.GenerativeModel("gemini-1.5-flash")
-response = model.generate_content("Hello, Gemini!")
-print(response.text)
