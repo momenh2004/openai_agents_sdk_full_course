@@ -1,5 +1,5 @@
 
-##  **A. Introduction to `uv`**
+##  **1. Introduction to `uv`**
 
 ### 🧠 What is `uv`?
 
@@ -12,24 +12,26 @@
 * 🚀 **Packaging and running apps**
 
 <br>
+
 ### 💡 Why we use `uv`?
 
 Because it combines what `pip`, `venv`, and `poetry` do — **all in one tool**.
 It is **super fast**, easy to use, and handles Python projects from setup to publishing.
 
-<br>
+
 <br>
 
 ## **B. Key Features of `uv`**
 
-| Feature                   | Meaning (Simple Words)                                    |
-| - |  |
-| ⚡ Speed                   | `uv` is written in Rust, so it’s much faster than pip.    |
-| 📦 Dependency Management  | Installs and locks packages in seconds.                   |
-| 🧰 Virtual Environments   | Automatically creates `.venv` folder for each project.    |
-| 📘 pyproject.toml         | Central configuration file — replaces `requirements.txt`. |
-| 🧠 Python Version Pinning | Fixes the exact Python version for your project.          |
-| 🚀 Run Commands           | You can run code or scripts directly with `uv run`.       |
+| 💡 **Feature**                | 🧠 **Meaning (Simple Words)**                                                                                 |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| ⚡ **Speed**                   | `uv` is written in **Rust**, which makes it **much faster** than traditional tools like `pip`.                |
+| 📦 **Dependency Management**  | Installs and locks Python packages **within seconds** for consistent environments.                            |
+| 🧰 **Virtual Environments**   | Automatically creates a **`.venv`** folder for every new project — no manual setup needed.                    |
+| 📘 **pyproject.toml**         | Acts as a **central configuration file** that replaces `requirements.txt`.                                    |
+| 🧠 **Python Version Pinning** | Keeps your project on a **fixed Python version** to avoid “it works on my machine” issues.                    |
+| 🚀 **Run Commands**           | Allows you to **run scripts or modules directly** using `uv run` — no need to activate environments manually. |
+
 
 <br>
 
