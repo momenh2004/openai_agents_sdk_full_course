@@ -68,7 +68,7 @@ Open **Command Prompt** and type:
 python --version
 ```
 
-
+<br>
 
 ### 🍎 **macOS**
 
@@ -95,7 +95,7 @@ python3 --version
 
 Python 3.xx.x (latest version)
 
-
+<br>
 
 ## 🐧 **Linux (Ubuntu / Debian-based)**
 ### ✅ Step 1: Update System
@@ -139,7 +139,7 @@ pip 24.00 (latest version)
   uv --version
   ```
   
-
+<br>
 
 ### 🍎 **macOS**
 
@@ -159,7 +159,7 @@ pip 24.00 (latest version)
   ```
   
 
-
+<br>
 
 ### 🐧 **Linux**
 
