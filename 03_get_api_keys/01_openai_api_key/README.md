@@ -36,19 +36,16 @@ Follow the steps below to generate your own API key:
 
 ---
 <br>
-## 💳 Adding a Payment Method (OpenAI) — Step-by-step
+
+# 💳 Adding a Payment Method (OpenAI) — Step-by-step
 
 Before you can use the OpenAI API , you need to add a payment method (usually a credit or debit card).  
 Follow these simple steps.
 
 ---
 
-
----
-
 ### 🪜 Step 1 Navigate to Billing
-1. Go to the OpenAI platform and **log in**: (OpenAI Platform)  
-### ⚙️ 
+1. Go to the OpenAI platform and **log in**: (OpenAI Platform)
 - After logging in, click **⚙️ Settings** near your  **profile icon** .  
 - Select **"Billing"**  
 - Or directly visit 👉 [https://platform.openai.com/settings/organization/billing/overview](https://platform.openai.com/settings/organization/billing/overview)
@@ -62,7 +59,7 @@ Follow these simple steps.
 3. Save / Submit.
 
 **Tip:** 
-SadaPay platform is good if you do not have Bank credit Card
+SadaPay platform is good if you do not have Bank Credit Card
 
 ---
 
