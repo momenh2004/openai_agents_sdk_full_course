@@ -84,7 +84,8 @@ Open **Command Prompt** and type:
 
 Then install Python:
 ```bash
-- brew install python
+ brew install python
+```
 
 ### ✅ Step 2: Verify Installation
 **python3 --version**
