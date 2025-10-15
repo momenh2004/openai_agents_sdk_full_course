@@ -11,7 +11,7 @@ In this , we’ll learn how to **create your first AI Agent** using the **OpenAI
 ## 📂 Step 1: Setting Up a New Project
 
 ### 🪶 1. Create a new folder
-- Create a new folder for your project e.g **hello_agent.py**.  
+- Create a new folder for your project e.g **my_project**.  
 - Then open it in **VS Code**.
 
 ---
@@ -27,7 +27,7 @@ uv init
 
 * This command creates a new **Python project** using `uv`.
 * It also sets up a **virtual environment** automatically.
-* It will create following files:
+* It will create following files in your folder:
 ```
 my-simple-app/
 ├── .gitignore
@@ -55,13 +55,21 @@ uv add openai-agents
 ---
 
 ### 🧩 4. Check if your environment is active
+Make sure VS Code is using the same virtual environment that was created automatically by uv.
 
-Make sure VS Code is using the same environment created by `uv`.
+💡 Tip:
 
-Go to:
+- When you run **`uv init`**, it creates an environment using your folder name by default.
+
+- If your folder name is **`my_project`**, your environment will also be named **`my_project`**.
+
+- You can also create it with a custom name if you want.
+
+- To select the environment in VS Code Go to:
+
 
 > **Command Palette → “Python: Select Interpreter” → choose your environment**
-
+ 
 ---
 
 <br>
@@ -208,9 +216,13 @@ print(f"\n{my_result.final_output}")
 ## 🧾 Step 5: Summary
 
 ✔️ We created a **new project** using `uv`
+
 ✔️ Installed the **OpenAI Agents SDK**
+
 ✔️ Activated our **virtual environment**
+
 ✔️ Wrote and executed our **first agent code**
+
 ✔️ Displayed the **agent’s response** successfully
 
 ---
