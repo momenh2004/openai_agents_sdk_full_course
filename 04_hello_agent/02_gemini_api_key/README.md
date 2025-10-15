@@ -1,82 +1,13 @@
 
 # 🧠 OpenAI Agents SDK
 
-## 🎯  Basic Agent Setup with OpenAI API Key
+## 🎯  Basic Agent Setup with Google Gemini API Key
 
 
-In this , we’ll learn how to **create your first AI Agent** using the **OpenAI Agents SDK** — step by step in a simple and easy way.
 
----
+## Step 1: Add Your OpenAI API Key
 
-## 📂 Step 1: Setting Up a New Project
-
-### 🪶 1. Create a new folder
-- Create a new folder for your project e.g **my_project**.  
-- Then open it in **VS Code**.
-
----
-
-### ⚙️ 2. Initialize the project with `uv`
-Open the terminal in VS Code and type:
-
-```bash
-uv init
-```
-
-✅ **Explanation:**
-
-* This command creates a new **Python project** using `uv`.
-* It also sets up a **virtual environment** automatically.
-* It will create following files in your folder:
-```
-my-simple-app/
-├── .gitignore
-├── .python-version
-├── main.py
-├── pyproject.toml
-└── README.md
-```
-
----
-
-### 📦 3. Install the OpenAI Agents SDK
-
-Now install the required package:
-
-```bash
-uv add openai-agents
-```
-
-✅ **Explanation:**
-
-* This installs the **OpenAI Agents SDK** in your project.
-* You can see it added under dependencies in your `pyproject.toml` file.
-
----
-
-### 🧩 4. Check if your environment is active
-Make sure VS Code is using the same virtual environment that was created automatically by uv.
-
-💡 Tip:
-
-- When you run **`uv init`**, it creates an environment using your folder name by default.
-
-- If your folder name is **`my_project`**, your environment will also be named **`my_project`**.
-
-- You can also create it with a custom name if you want.
-
-- To select the environment in VS Code Go to:
-
-
-> **Command Palette → “Python: Select Interpreter” → choose your environment**
- 
----
-
-<br>
-
-## Step 2: Add Your OpenAI API Key
-
-Before running your agent, you need to provide your OpenAI API key so the SDK can connect to OpenAI’s servers.
+Before running your agent, you need to provide your Google **Gemini API** key so the SDK can connect.
 
 ### 🧾 1. Create a .env file
 
@@ -86,9 +17,11 @@ Inside your project folder, create a new file named: **`.env`**
 
 Open the .env file and add this line:
 ```bash
-OPENAI_API_KEY=your_actual_api_key_here
+GEMINI_API_KEY=your_actual_api_key_here
 ```
-
+Tips:
+To Get API Key follow this Repo:
+[03_get_api_keys](./03_get_api_keys)
 
 ### ⚠️ Important:
 
@@ -216,9 +149,13 @@ print(f"\n{my_result.final_output}")
 ## 🧾 Step 5: Summary
 
 ✔️ We created a **new project** using `uv`
+
 ✔️ Installed the **OpenAI Agents SDK**
+
 ✔️ Activated our **virtual environment**
+
 ✔️ Wrote and executed our **first agent code**
+
 ✔️ Displayed the **agent’s response** successfully
 
 ---
