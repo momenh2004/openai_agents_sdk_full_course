@@ -1,42 +1,41 @@
-Perfect 👌 Here’s your **well-formatted `README.md`** version of the “Basic Agent” lecture — clean, attractive, and easy for students to read on GitHub or during your video.
-I’ve added clear headings, highlights, and markdown styling for a professional look.
 
----
+# 🧠 OpenAI Agents SDK
 
-```markdown
-# 🧠 OpenAI Agents SDK — Lecture 1  
-## 🎯 Topic: Basic Agent Setup and First Program
+## 🎯  Basic Agent Setup with OpenAI API Key
 
-Welcome to **Lecture #1** of the *OpenAI Agents SDK Full Course* by **IB Coding School**!  
-In this lecture, we’ll learn how to **create your first AI Agent** using the **OpenAI Agents SDK** — step by step in a simple and easy way.
+
+In this , we’ll learn how to **create your first AI Agent** using the **OpenAI Agents SDK** — step by step in a simple and easy way.
 
 ---
 
 ## 📂 Step 1: Setting Up a New Project
 
 ### 🪶 1. Create a new folder
-Create a new folder for your project.  
-Example:
-```
-
-basic_agent_project
-
-````
-Then open it in **VS Code**.
+- Create a new folder for your project e.g **hello_agent.py**.  
+- Then open it in **VS Code**.
 
 ---
 
 ### ⚙️ 2. Initialize the project with `uv`
 Open the terminal in VS Code and type:
+
 ```bash
 uv init
-````
+```
 
 ✅ **Explanation:**
 
 * This command creates a new **Python project** using `uv`.
 * It also sets up a **virtual environment** automatically.
-* The environment helps you manage project dependencies safely and separately.
+* It will create following files:
+```
+my-simple-app/
+├── .gitignore
+├── .python-version
+├── main.py
+├── pyproject.toml
+└── README.md
+```
 
 ---
 
@@ -65,7 +64,33 @@ Go to:
 
 ---
 
-## 💻 Step 2: Writing Our First Agent
+<br>
+
+## Step 2: Add Your OpenAI API Key
+
+Before running your agent, you need to provide your OpenAI API key so the SDK can connect to OpenAI’s servers.
+
+### 🧾 1. Create a .env file
+
+Inside your project folder, create a new file named: **`.env`**
+
+### 🔐 2. Add your API key
+
+Open the .env file and add this line:
+```bash
+OPENAI_API_KEY=your_actual_api_key_here
+```
+
+
+### ⚠️ Important:
+
+- Never share your API key publicly or upload .env to GitHub.
+- Add .env to your .gitignore file to keep it private.
+
+
+<br>
+
+## 💻 Step 3: Writing Our First Agent
 
 Now create a new file named **`main.py`** and paste the following code 👇
 
@@ -91,7 +116,9 @@ print(f"\n{my_result.final_output}")
 
 ---
 
-## 🔍 Step 3: Code Explanation (Line by Line)
+<br>
+
+## 🔍 Step 4: Code Explanation (Line by Line)
 
 ### 🧩 Import Required Classes
 
@@ -121,7 +148,7 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-* Loads all variables from `.env` file into Python.
+* Loads all variables from `.env` file into your project.
 * Makes your API key accessible to the SDK.
 
 ---
@@ -136,7 +163,7 @@ my_agent = Agent(
 ```
 
 * Creates a new agent named **“Assistant”**.
-* `instructions` define the **personality and behavior** of your agent.
+* `instructions` define the **behavior** of your agent.
 
   * Example: “You are a math expert” will make it act like a math tutor.
 
@@ -163,10 +190,6 @@ my_result = Runner.run_sync(
 * This **executes** the agent using the `Runner`.
 * `starting_agent` tells it which agent to use.
 * `input` provides the question.
-* The result (answer + trace) is stored in `my_result`.
-
-🧩 *Note:*
-**run_sync** means it runs step-by-step (synchronously) and waits for the result.
 
 ---
 
@@ -177,17 +200,12 @@ print(f"\n{my_result.final_output}")
 ```
 
 * Prints the final response from the agent.
-* `\n` adds a new line for cleaner output.
 
-✅ **Example Output:**
 
-```
-The capital of Pakistan is Islamabad.
-```
 
 ---
 
-## 🧾 Step 4: Summary
+## 🧾 Step 5: Summary
 
 ✔️ We created a **new project** using `uv`
 ✔️ Installed the **OpenAI Agents SDK**
@@ -204,16 +222,7 @@ This is the foundation for everything we’ll build in upcoming lectures.
 
 ---
 
-## 🚀 Next Lecture Preview
 
-In the next video, we’ll explore:
-
-> 🧩 **How to add Tools** to your Agent —
-> so it can perform real actions like **searching**, **calculating**, or even **talking to other agents!**
-
-Stay tuned and don’t forget to ⭐ **star** this repository if you found it helpful.
-
----
 
 ### 📺 Course by: **IB Coding School**
 
@@ -221,7 +230,3 @@ Stay tuned and don’t forget to ⭐ **star** this repository if you found it he
 
 ```
 
----
-
-Would you like me to add a **banner section with badges (Python, OpenAI, UV, VS Code)** at the top — to make your README look even more professional and GitHub-ready?
-```
