@@ -1,7 +1,7 @@
 
 # 🧠 OpenAI Agents SDK
 
-## 🎯  Basic Agent Setup with Google Gemini API Key
+## 🎯  Basic Agent Setup with Google Gemini API Key (Free)
 
 
 
@@ -66,6 +66,7 @@ my_result = Runner.run_sync(
 print(f"\n{my_result.final_output}")
 ```
 ---
+<br>
 
 ## 🧩 Step-by-Step Code Explanation
 
@@ -87,6 +88,7 @@ import os
 * **os** → Used to access environment variables in Python.
 
 ---
+
 
 ### 2️⃣ Load Environment Variables
 
@@ -207,19 +209,15 @@ The capital of Pakistan is Islamabad.
 ## 🧾 Summary
 
 ✔️ Added Gemini API key in `.env` file
+
 ✔️ Connected Gemini API using `AsyncOpenAI`
+
 ✔️ Used `OpenAIChatCompletionsModel` for Gemini models
+
 ✔️ Created and ran an agent successfully
 
 ---
 
-## ⚡ Example `.env` File
-
-Make sure your `.env` file looks like this:
-
-```
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-```
 
 ---
 
@@ -238,6 +236,5 @@ This lets you build **AI Agents** powered by Gemini’s intelligence — fast, s
 
 ---
 
-Would you like me to merge this **Gemini API section** directly into your previous **Basic Agent README** so it becomes one complete file (Lecture #1 + Gemini setup)?
-```
+
 

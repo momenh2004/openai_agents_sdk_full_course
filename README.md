@@ -25,7 +25,6 @@ The goal is to help developers understand and implement **Agentic AI systems** p
 | 02 | [02_uv](./02_uv) | Installing and managing dependencies with `uv` |
 | 03 | [03_get_api_keys](./03_get_api_keys) | How to get and use OpenAI API keys securely |
 | 04 | [04_hello_agent](./04_hello_agent) | Writing your first “Hello Agent” program |
-| 04 | [04_hello_agent](./04_hello_agent) | Writing your first “Hello Agent” program |
 
 More modules will be added soon...
 
