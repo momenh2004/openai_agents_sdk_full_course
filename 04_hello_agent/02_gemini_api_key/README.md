@@ -21,7 +21,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 ```
 Tips:
 To Get API Key follow this Repo:
-[03_get_api_keys](../../03_get_api_keys/)
+[Get Gemini Key](../../03_get_api_keys/02_gemini_api_key/)
 
 ### ⚠️ Important:
 
