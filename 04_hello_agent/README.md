@@ -216,13 +216,9 @@ print(f"\n{my_result.final_output}")
 ## 🧾 Step 5: Summary
 
 ✔️ We created a **new project** using `uv`
-
 ✔️ Installed the **OpenAI Agents SDK**
-
 ✔️ Activated our **virtual environment**
-
 ✔️ Wrote and executed our **first agent code**
-
 ✔️ Displayed the **agent’s response** successfully
 
 ---
