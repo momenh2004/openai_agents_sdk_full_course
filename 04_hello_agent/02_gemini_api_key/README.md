@@ -36,14 +36,24 @@ To Get API Key follow this Repo:
 Now create a new file named **`main.py`** and paste the following code 👇
 
 ```python
-from agents import Agent, Runner
+from agents import Agent, Runner, OpenAIChatCompletionsModel, set_tracing_disabled
+from openai import AsyncOpenAI
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
+set_tracing_disabled(disabled=True)
+
+my_api_key = os.getenv("GEMINI_API_KEY")
+
+my_clinet = AsyncOpenAI(api_key=my_api_key, base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
+
+my_model = OpenAIChatCompletionsModel(model="gemini-2.5-flash", openai_client=my_clinet)
 
 my_agent = Agent(
     name="Assistant",
-    instructions="You are a helpful Assistant"
+    instructions="You are a helpful Assistant",
+    model=my_model
 )
 
 my_prompt = "What is capital of Pakistan?"
@@ -52,75 +62,120 @@ my_result = Runner.run_sync(
     starting_agent=my_agent, input=my_prompt
 )
 
+
 print(f"\n{my_result.final_output}")
 ```
-
 ---
 
-<br>
+## 🧩 Step-by-Step Code Explanation
 
-## 🔍 Step 4: Code Explanation (Line by Line)
-
-### 🧩 Import Required Classes
+### 1️⃣ Import Required Libraries
 
 ```python
-from agents import Agent, Runner
-```
-
-* **Agent** → Creates your AI assistant (the “brain”).
-* **Runner** → Executes or runs the agent (the “engine”).
-
----
-
-### 🔐 Import dotenv
-
-```python
+from agents import Agent, Runner, OpenAIChatCompletionsModel, set_tracing_disabled
+from openai import AsyncOpenAI
 from dotenv import load_dotenv
+import os
 ```
 
-* Used to **load secret keys** (like the OpenAI API key) from a `.env` file.
-* Keeps your API key **secure** and out of your code.
+* **Agent** → Creates your AI assistant (the brain).
+* **Runner** → Runs or executes the agent.
+* **OpenAIChatCompletionsModel** → Allows you to use any OpenAI-compatible model (like Gemini).
+* **set_tracing_disabled** → Turns off tracing (optional; makes execution faster).
+* **AsyncOpenAI** → Helps connect with OpenAI or any compatible API (like Gemini).
+* **load_dotenv** → Loads secret keys from `.env` file.
+* **os** → Used to access environment variables in Python.
 
 ---
 
-### 📜 Load Environment Variables
+### 2️⃣ Load Environment Variables
 
 ```python
 load_dotenv()
 ```
 
-* Loads all variables from `.env` file into your project.
-* Makes your API key accessible to the SDK.
+This loads the `.env` file where your API key is saved.
+
+Example of `.env` file:
+
+```
+GEMINI_API_KEY=your_gemini_api_key_here
+```
 
 ---
 
-### 🧠 Create Your Agent
+### 3️⃣ Disable Tracing (Optional)
+
+```python
+set_tracing_disabled(disabled=True)
+```
+
+This line **turns off tracing**, which is useful if you don’t want detailed logs or analytics.
+You can skip this if you prefer default tracing behavior.
+
+---
+
+### 4️⃣ Get API Key from Environment
+
+```python
+my_api_key = os.getenv("GEMINI_API_KEY")
+```
+
+* Fetches the **Gemini API key** from your `.env` file securely.
+* Keeps your key hidden from public code.
+
+---
+
+### 5️⃣ Create Gemini Client
+
+```python
+my_clinet = AsyncOpenAI(api_key=my_api_key, base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
+```
+
+* Connects to **Gemini’s API endpoint**.
+* Uses `AsyncOpenAI` because Gemini API is **OpenAI-compatible**.
+* `base_url` changes the default OpenAI endpoint to Gemini’s URL.
+
+---
+
+### 6️⃣ Define the Model
+
+```python
+my_model = OpenAIChatCompletionsModel(model="gemini-2.5-flash", openai_client=my_clinet)
+```
+
+* Tells the SDK which **Gemini model** you want to use.
+* Here we’re using **`gemini-2.5-flash`** — a fast and efficient model.
+* `openai_client` links this model to the Gemini API connection.
+
+---
+
+### 7️⃣ Create the Agent
 
 ```python
 my_agent = Agent(
     name="Assistant",
-    instructions="You are a helpful Assistant"
+    instructions="You are a helpful Assistant",
+    model=my_model
 )
 ```
 
-* Creates a new agent named **“Assistant”**.
-* `instructions` define the **behavior** of your agent.
-
-  * Example: “You are a math expert” will make it act like a math tutor.
+* Creates a **custom AI agent** using the Gemini model.
+* The `instructions` define how the assistant should behave.
 
 ---
 
-### 💬 Give a Prompt
+### 8️⃣ Add a Prompt
 
 ```python
 my_prompt = "What is capital of Pakistan?"
 ```
 
-* This is the **question or task** you want your agent to handle.
+* This is the question or command for your agent.
 
 ---
 
-### ⚙️ Run the Agent
+### 9️⃣ Run the Agent
 
 ```python
 my_result = Runner.run_sync(
@@ -128,50 +183,61 @@ my_result = Runner.run_sync(
 )
 ```
 
-* This **executes** the agent using the `Runner`.
-* `starting_agent` tells it which agent to use.
-* `input` provides the question.
+* Runs the agent and waits for its response.
+* The output (answer) is stored in `my_result`.
 
 ---
 
-### 🖨️ Display the Result
+### 🔟 Print the Final Output
 
 ```python
 print(f"\n{my_result.final_output}")
 ```
 
-* Prints the final response from the agent.
+* Displays the final response from the Gemini model.
 
+✅ **Example Output:**
 
-
----
-
-## 🧾 Step 5: Summary
-
-✔️ We created a **new project** using `uv`
-
-✔️ Installed the **OpenAI Agents SDK**
-
-✔️ Activated our **virtual environment**
-
-✔️ Wrote and executed our **first agent code**
-
-✔️ Displayed the **agent’s response** successfully
+```
+The capital of Pakistan is Islamabad.
+```
 
 ---
 
-## 🎉 Congratulations!
+## 🧾 Summary
 
-You’ve just built your **first OpenAI Agent** using the **Agents SDK**!
-This is the foundation for everything we’ll build in upcoming lectures.
+✔️ Added Gemini API key in `.env` file
+✔️ Connected Gemini API using `AsyncOpenAI`
+✔️ Used `OpenAIChatCompletionsModel` for Gemini models
+✔️ Created and ran an agent successfully
 
 ---
 
+## ⚡ Example `.env` File
 
+Make sure your `.env` file looks like this:
+
+```
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+```
+
+---
+
+## 🎉 You Did It!
+
+Now your **OpenAI Agents SDK** project is successfully connected to **Google Gemini models**.
+This lets you build **AI Agents** powered by Gemini’s intelligence — fast, secure, and simple.
+
+---
 
 ### 📺 Course by: **IB Coding School**
 
-> *Subscribe on YouTube for full OpenAI Agents SDK course tutorials!*
+> *Subscribe on YouTube for more practical lectures on the OpenAI Agents SDK full course.*
 
+```
+
+---
+
+Would you like me to merge this **Gemini API section** directly into your previous **Basic Agent README** so it becomes one complete file (Lecture #1 + Gemini setup)?
 ```
 

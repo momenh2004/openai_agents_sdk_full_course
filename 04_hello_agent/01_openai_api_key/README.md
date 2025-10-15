@@ -88,7 +88,9 @@ Open the .env file and add this line:
 ```bash
 OPENAI_API_KEY=your_actual_api_key_here
 ```
-
+Tips:
+To Get API Key follow this Repo:
+[Get Gemini Key](../../03_get_api_keys/01_openai_api_key/README.md)
 
 ### ⚠️ Important:
 
