@@ -9,7 +9,7 @@ Let’s define these 3 important terms: **OpenAI**, **Agents**, and **SDK** 👇
 ## 🧠 What is OpenAI?
 
 - **OpenAI** is a leading **artificial intelligence (AI) company**.  
-- It develops **advanced AI models** like **ChatGPT**, **DALL·E**, and **OpenAI Agents SDK**.  
+- It develops **advanced AI models** like **ChatGPT**, **DALL·E**, **OpenAI Agents SDK** etc.  
 - **Founded:** December 11, 2015  
 
 ---
